@@ -1,0 +1,30 @@
+[
+  {
+    "event": "push",
+    "branch": "main",
+    "path": "app.py"
+  },
+  {
+    "event": "push",
+    "branch": "feature",
+    "path": "app.py"
+  },
+  {
+    "event": "push",
+    "branch": "main",
+    "path": "README.md"
+  },
+  {
+    "event": "workflow_dispatch"
+  },
+  {
+    "event": "schedule",
+    "cron": "0 9 * * 1",
+    "on_default_branch": true
+  },
+  {
+    "event": "schedule",
+    "cron": "0 9 * * 1",
+    "on_default_branch": false
+  }
+]
